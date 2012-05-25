@@ -19,7 +19,7 @@ class Router
 		$action = isset($uri[2]) ? $uri[2] : 'index';
 		
 		// DEBUG
-		print_r($uri);
+		//print_r($uri);
 		
 		// Module exists?
 		if(file_exists(BASEPATH.'modules/'.$module))
